@@ -1,0 +1,75 @@
+<!--Start of document-->
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Start of Head-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Title of webpage-->
+    <title>Colour Mixer</title>
+
+    <!--Linking the JavaScript page-->
+    <script src="Task2.js"></script>
+
+    <!--Linking the CSS page-->
+    <link rel="stylesheet" href="Task2.css">
+
+</head>
+<!--End of Head-->
+
+<!-- Body Section -->
+<body>
+    <!-- Title within webpage -->
+    <h1>Colour Mixer</h1>
+    <br>
+
+<!--Div for styling the RGB Lettering-->
+<div id="RGBTitle">
+
+<!-- Table for the RGB lettering to be on the same line and input boxes -->
+<table>
+    <tr>
+        <!--Table Headers (Letters - R, G and B)-->
+        <th>R</th>
+        <th>G</th>
+        <th>B</th>
+        <!--End of Table headers -->
+    </tr>
+</div>
+<!--End of Div for RGB-->
+    <tr>
+        <!--Input boxes for values-->
+        <td><input type="text" onfocus="this.value=''" id="red" name="red" size="3"></td>
+        <td><input type="text" onfocus="this.value=''" id="green" name="green" size="3"></td>
+        <td><input type="text" onfocus="this.value=''" id="blue" name="blue" size="3"></td>
+        <!--End of input boxes-->
+    </tr>
+</table>
+<!--End of table-->
+
+<br>
+
+<!--Generate button-->
+<button id="btnGenerate" onclick="Generate()">Generate</button>
+
+<!--Main class for swatch-->
+<div class="main">
+
+    <!--Swatch class-->
+    <div class="lighterswatch" id="lighterswatch"></div>
+    <div class="mainswatch" id="mainswatch"></div>
+    <div class="darkerswatch" id="darkerswatch"></div>
+
+</div>
+
+<!--Text below the swatches-->
+<p id="TextBelowSwatch">Lighter <br> Shade</p>
+<p id="TextBelowSwatch">Original <br> Shade</p>
+<p id="TextBelowSwatch">Darker <br> Shade</p>
+    
+</body>
+<!--End of body-->
+</html>
+<!--End of document-->

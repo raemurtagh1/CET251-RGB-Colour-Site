@@ -1,0 +1,59 @@
+/* Heading 1 (Colour Mixer Title) style */
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    text-align: center; 
+    text-decoration: underline;
+}
+
+/* R G B lettering */
+#RGBTitle {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 36px; 
+    text-align: center;
+}
+
+/* RGB lettering - space above input boxes */
+th { padding-bottom: 20px; }
+
+/* Main table */
+table { margin-left: 475px; }
+
+/* Input Boxes */
+input {
+    font-size: 50px;
+    text-align: center;
+}
+
+/* Generate button */
+#btnGenerate {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+/* Main container for swatches */
+.main {
+    display: block; 
+    margin: 0; 
+    padding: 0;
+}
+
+/* Styles for the swatches */
+.lighterswatch, .mainswatch , .darkerswatch{
+    padding: 0; 
+    margin: 0; 
+    width: 200px; 
+    height: 200px; 
+    background-color:antiquewhite;
+    display: inline-block;
+}
+
+/* Styles for the text below the swatches */
+#TextBelowSwatch {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder; 
+    font-size: 20px; 
+    text-align: center;
+    display: inline-block;
+    padding-left: 60px;
+    padding-right: 60px;
+}
